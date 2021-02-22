@@ -3,10 +3,10 @@ const path = require('path');
 
 const app = express();
 
-app.use(express.static('./dist/angular-app-rrezi'));
+app.use(express.static('./AngularWorkspace/rrezi'));
 
 app.get('/*', (req, res) =>
-    res.sendFile('index.html', {root: 'dist/angular-app-rrezi'}),
+    res.sendFile('index.html', {root: 'dist/rrezi'}),
 );
 
 
