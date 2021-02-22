@@ -6,7 +6,7 @@ const app = express();
 app.use(express.static('./AngularWorkspace/rrezi'));
 
 app.get('/*', (req, res) =>
-    res.sendFile('index.html', {root: 'dist/rrezi'}),
+    res.sendFile('index.html', {root: 'AngularWorkspace/rrezi'}),
 );
 
 
