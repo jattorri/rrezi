@@ -3,12 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { AlbumComponent } from './album/album.component';
+import { VideoComponent } from './components/video/video.component';
+import { FotoComponent } from './components/foto/foto.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AlbumComponent
+    VideoComponent,
+    FotoComponent
   ],
   imports: [
     BrowserModule,
